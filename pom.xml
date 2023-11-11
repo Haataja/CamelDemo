@@ -25,11 +25,6 @@
 		</dependency>
 		<dependency>
 			<groupId>org.apache.camel</groupId>
-			<artifactId>camel-csv</artifactId>
-			<version>3.19.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-jackson</artifactId>
 			<version>3.19.0</version>
 			<!-- use the same version as your Camel core version -->
@@ -41,9 +36,10 @@
 			<!-- use the same version as your Camel core version -->
 		</dependency>
 		<dependency>
-			<groupId>org.apache.camel</groupId>
-			<artifactId>camel-bindy</artifactId>
+			<groupId>org.apache.camel.springboot</groupId>
+			<artifactId>camel-activemq-starter</artifactId>
 			<version>3.19.0</version>
+			<!-- use the same version as your Camel core version -->
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
